@@ -35,6 +35,7 @@ header {
 .header-container h3 {
     font-size: 14px;
     font-family: 'PT Sans Narrow';
+    letter-spacing: 2px;
     margin-top: 30px;
     margin-bottom: 14px;
     color: var(--secondary);
@@ -60,6 +61,7 @@ header {
     height: 60px;
     font-size: 18px;
     font-weight: 700;
+    font-family: 'PT Sans Narrow';
     letter-spacing: 2px;
 }
 
@@ -70,6 +72,15 @@ main {
 h2 {
     font-size: 32px;
     font-weight: 900;
+    font-family: 'Playfair Display';
+}
+
+p {
+    font-weight: 400;
+    font-family: 'PT Sans Narrow';
+    letter-spacing: 0;
+    line-height: 30px;
+    font-size: 18px;
 }
 
 .about-me h2 {
@@ -78,10 +89,8 @@ h2 {
 }
 
 .about-me p {
-    font-size: 18px;
     margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 30px;
+    margin-bottom: 40px;
 }
 
 hr {
@@ -98,7 +107,19 @@ hr {
 
 .subtitle {
     font-size: 18px;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow';
+    letter-spacing: 1px;
+    line-height: 24px;
     color: var(--secondary);   
+}
+
+.since {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'PT Sans Narrow';
+    line-height: 24px;
+    letter-spacing: 0;
 }
 
 .experience h3 {
@@ -106,15 +127,58 @@ hr {
 }
 
 .experience .since {
-    font-size: 18px;
     margin-top: 8px;
 }
 
-p {
-    font-size: 18px;
-    font-weight: 400px;
+.paragraph {
+    margin-bottom: 40px;
 }
 
-.experience p {
+.experience div .paragraph2 {
     margin-top: 20px;
+}
+
+.side-section {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'PT Sans Narrow';
+    margin: 0;
+    list-style: none;
+    height: 30px;
+    letter-spacing: 0;
+}
+
+.awards {
+    margin-bottom: 10px;
+}
+
+.trait-title {
+    font-weight: 700;
+}
+
+.recent-works-title {
+    margin-bottom: 11px;
+}
+
+.recent-works {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.recent-work {
+    color: var(--primary);
+    font-weight: 700;
+    font-family: 'PT Sans Narrow';
+    line-height: 30px;
+    font-size: 18px;
 }
