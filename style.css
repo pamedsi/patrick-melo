@@ -114,3 +114,7 @@ p {
     font-size: 18px;
     font-weight: 400px;
 }
+
+.experience p {
+    margin-top: 20px;
+}
