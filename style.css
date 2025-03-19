@@ -182,3 +182,11 @@ li {
     line-height: 30px;
     font-size: 18px;
 }
+
+.contact {
+    
+}
+
+footer {
+    background-color: var(--bg-header);
+}
