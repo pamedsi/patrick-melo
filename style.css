@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    height: 596px;
+    min-height: 596px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +22,12 @@ header {
 }
 
 .header-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-info {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -214,4 +220,24 @@ footer .socials {
     display: flex;
     justify-content: space-between;
     margin-top: 66px;
+}
+
+@media screen and (min-width: 1023px) {
+    .header-container {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .profile-info {
+        align-items: flex-start;
+    }
+
+    .profile-info h1 {
+        line-height: 112px;
+        font-size: 126px;
+        text-align: left;
+        width: min-content;
+        margin-bottom: 40px;
+    }
 }
