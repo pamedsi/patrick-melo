@@ -279,4 +279,31 @@ footer .socials {
         margin: 0;
     }
 
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container h2 {
+        white-space: nowrap;
+        font-size: 66px;
+    }
+
+    .contact a {
+        font-weight: 900;
+        line-height: 46px;
+        font-size: 36px;
+        cursor: pointer;
+    }
+
+    footer .socials {
+        margin-top: 20px;
+        width: 250px;
+    }
+
+    .socials img {
+        cursor: pointer;
+    }
+
 }
