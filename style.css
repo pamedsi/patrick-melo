@@ -73,6 +73,8 @@ header {
 
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 h2 {
