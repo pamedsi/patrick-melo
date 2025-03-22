@@ -242,4 +242,41 @@ footer .socials {
         width: min-content;
         margin-bottom: 40px;
     }
+
+    .profile-info a {
+        cursor: pointer;
+    }
+
+    main {
+        flex-direction: row;
+        gap: 10vw;
+        padding: 0 10vw;
+    }
+
+    .main-content, .side-bar {
+        margin-top: 96px;
+    }
+
+    .about-me h2,  .side-bar .side-section {
+        margin-top: 0;
+    }
+
+    .recent-work {
+        cursor: pointer;
+    }
+
+    .only-mobile {
+        display: none;
+    }
+
+    .experience-and-period, .education-and-period {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .education-and-period p {
+        margin: 0;
+    }
+
 }
