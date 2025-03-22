@@ -34,7 +34,7 @@ header {
 
 .header-container h3 {
     font-size: 14px;
-    font-family: 'PT Sans Narrow';
+    font-family: 'PT Sans Narrow', serif;
     letter-spacing: 2px;
     margin-top: 30px;
     margin-bottom: 14px;
@@ -45,7 +45,7 @@ header {
     text-align: center;
     font-size: 56px;
     font-weight: 900;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     letter-spacing: -2.17px;
     line-height: 46px;
     margin-top: 0;
@@ -61,7 +61,7 @@ header {
     height: 60px;
     font-size: 18px;
     font-weight: 700;
-    font-family: 'PT Sans Narrow';
+    font-family: 'PT Sans Narrow', serif;
     letter-spacing: 2px;
 }
 
@@ -72,12 +72,12 @@ main {
 h2 {
     font-size: 32px;
     font-weight: 900;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
 }
 
 p {
     font-weight: 400;
-    font-family: 'PT Sans Narrow';
+    font-family: 'PT Sans Narrow', serif;
     letter-spacing: 0;
     line-height: 30px;
     font-size: 18px;
@@ -108,7 +108,7 @@ hr {
 .subtitle {
     font-size: 18px;
     font-weight: 700;
-    font-family: 'PT Sans Narrow';
+    font-family: 'PT Sans Narrow', serif;
     letter-spacing: 1px;
     line-height: 24px;
     color: var(--secondary);   
@@ -117,7 +117,7 @@ hr {
 .since {
     font-size: 18px;
     font-weight: 400;
-    font-family: 'PT Sans Narrow';
+    font-family: 'PT Sans Narrow', serif;
     line-height: 24px;
     letter-spacing: 0;
 }
@@ -150,7 +150,7 @@ ul {
 li {
     font-size: 18px;
     font-weight: 400;
-    font-family: 'PT Sans Narrow';
+    font-family: 'PT Sans Narrow', serif;
     margin: 0;
     list-style: none;
     height: 30px;
@@ -178,13 +178,16 @@ li {
 .recent-work {
     color: var(--primary);
     font-weight: 700;
-    font-family: 'PT Sans Narrow';
+    font-family: 'PT Sans Narrow', serif;
     line-height: 30px;
     font-size: 18px;
 }
 
 footer {
     background-color: var(--bg-header);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer h2 {
@@ -196,4 +199,19 @@ footer h2 {
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+footer .footer-container {
+    width: min-content;
+    margin-top: 100px;
+    margin-bottom: 92px;
+}
+
+footer .socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
 }
