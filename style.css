@@ -286,8 +286,12 @@ footer .socials {
         justify-content: space-between;
     }
 
-    .education-and-period p {
+    .education-and-period p, h3 {
         margin: 0;
+    }
+
+    .education-and-period p {
+        text-align: right;
     }
 
     .footer-container {
