@@ -69,6 +69,8 @@ header {
     font-weight: 700;
     font-family: 'PT Sans Narrow', serif;
     letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 main {
@@ -294,7 +296,6 @@ footer .socials {
         font-weight: 900;
         line-height: 46px;
         font-size: 36px;
-        cursor: pointer;
     }
 
     footer .socials {
