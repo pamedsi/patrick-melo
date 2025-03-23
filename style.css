@@ -215,12 +215,15 @@ footer h2 {
 }
 
 .contact {
-    color: var(--primary);
     display: flex;
     flex-direction: column;
     font-size: 20px;
     font-weight: 900;
     text-align: center;
+}
+
+.contact a {
+    color: var(--primary);
 }
 
 footer .footer-container {
@@ -302,7 +305,7 @@ footer .socials {
 
     .footer-container h2 {
         white-space: nowrap;
-        font-size: 66px;
+        font-size: 72px;
     }
 
     .contact a {
