@@ -146,6 +146,14 @@ hr {
 
 .experience div .paragraph2 {
     margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.lirou-store-features {
+    margin-bottom: 8px;
+}
+.paragraph2-1 {
+    margin-top: 0 !important;
 }
 
 .side-section {
@@ -153,7 +161,7 @@ hr {
     margin-bottom: 60px;
 }
 
-ul {
+.skills {
     padding-left: 0;
 }
 
@@ -162,9 +170,12 @@ li {
     font-weight: 400;
     font-family: 'PT Sans Narrow', serif;
     margin: 0;
-    list-style: none;
     height: 30px;
     letter-spacing: 0;
+}
+
+.skills li {
+    list-style: none;
 }
 
 .awards {
@@ -239,9 +250,8 @@ footer .socials {
 
     .profile-info h1 {
         line-height: 112px;
-        font-size: 126px;
+        font-size: 72px;
         text-align: left;
-        width: min-content;
         margin-bottom: 40px;
     }
 
