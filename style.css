@@ -136,10 +136,6 @@ hr {
     margin-bottom: 0;
 }
 
-.experience .since {
-    margin-top: 8px;
-}
-
 .paragraph {
     margin-bottom: 40px;
 }
@@ -169,12 +165,15 @@ li {
     font-size: 18px;
     font-weight: 400;
     font-family: 'PT Sans Narrow', serif;
-    margin: 0;
     height: 30px;
     letter-spacing: 0;
 }
 
-.skills li {
+.side-section ul {
+    padding: 0;
+}
+
+.skills li, .side-section ul li {
     list-style: none;
 }
 
@@ -315,6 +314,10 @@ footer .socials {
 
     .socials img {
         cursor: pointer;
+    }
+
+    .experience-and-period .subtitle {
+        margin-top: 0;
     }
 
 }
