@@ -136,7 +136,7 @@ hr {
     margin-bottom: 0;
 }
 
-.paragraph {
+.last-paragraph {
     margin-bottom: 40px;
 }
 
@@ -318,6 +318,10 @@ footer .socials {
 
     .experience-and-period .subtitle {
         margin-top: 0;
+    }
+
+    .paragraph3 {
+        margin-bottom: 16px;
     }
 
 }
